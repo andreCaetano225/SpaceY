@@ -1,0 +1,76 @@
+.divBannerGlobal{
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    font-family: heebo;
+    display: flex;
+    justify-content: space-between;
+    background-image: url('../../../public/Starts.png');
+
+    .textBanner{
+        color: #FFF;
+        margin-top: 90px;
+        
+        h2{
+            font-weight: 500;
+            font-size: 18px;
+            color: #F5D15F;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+        }
+        h1{
+            font-size: 62px;
+            width: 670px;
+            font-weight: 800;
+            letter-spacing: 1px;
+        }
+        h3{
+            color: #D5D5DB;
+            font-size: 20px;
+            font-weight: 400;
+            width: 617px;
+            letter-spacing: 1px;
+        }
+
+        div{
+            button{
+                width: 267px;
+                height: 52px;
+                color: #FFF;
+                border: none;
+                background-color: #E85937;
+                border-radius: 5px;
+                margin-top: 32px;
+                cursor: pointer;
+                transition: 0.2s;
+
+                &:hover{
+                    background-color: #CC6946;
+                }
+            }
+        }
+    }
+
+    .bannerImg{
+        margin-left: 555px;
+        margin-top: -60px;
+    }
+}
+.divOptionsBanner{
+    color: #D5D5DB;
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: heebo;
+    margin-top: 40px;
+    background-image: url('../../../public/Starts.png');
+
+
+
+    p{
+        width: 198px;
+    }
+}

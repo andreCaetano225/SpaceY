@@ -1,0 +1,29 @@
+.divMartGlobal{
+
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1480px;
+    margin: auto;
+    margin-top: 80px;
+    color: #FFF;
+
+    h2{
+        font-weight: 500;
+        font-size: 18px;
+        color: #F5D15F;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    h1{
+        font-size: 40px;
+        width: 670px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+
+    p{
+        margin-top: 25px;
+    }
+}
